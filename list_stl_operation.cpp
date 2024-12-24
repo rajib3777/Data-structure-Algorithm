@@ -43,7 +43,6 @@ void print_linked_list(Node* head)
 }
 
 
-
 int main()
 {
     list<int> l;
@@ -75,6 +74,7 @@ int main()
         cout << "Not found" << endl;
     }
 
+    replace(l.begin(),l.end(),20,100);
 
     Node* head = NULL;
     Node* tail = NULL;
@@ -84,10 +84,7 @@ int main()
         insert_it_tail(head,tail,val);
     }
 
-
     print_linked_list(head);
-    
-
 
     return 0;
 }
