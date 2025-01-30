@@ -27,6 +27,7 @@ class cmp
 
     }
 };
+
 int main()
 {
     int N;
@@ -48,9 +49,6 @@ int main()
         cout << pq.top().S << " " << pq.top().I << " "  << endl;
         pq.pop();
     }
-
-
-
 
     return 0;
 }
